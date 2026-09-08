@@ -1,0 +1,23 @@
+[
+  {
+    "id": "PROD01",
+    "name": "Áo Thun Nam Basic Cotton",
+    "price": 199000,
+    "category": "Thời trang nam",
+    "description": "Áo thun chất liệu 100% cotton thoáng mát, thấm hút mồ hôi tốt. Phù hợp mặc hàng ngày hoặc tập thể thao. Có các màu: Trắng, Đen, Xám."
+  },
+  {
+    "id": "PROD02",
+    "name": "Tai Nghe Bluetooth Chống Ồn Wireless X1",
+    "price": 890000,
+    "category": "Thiết bị điện tử",
+    "description": "Tai nghe không dây tích hợp công nghệ chống ồn chủ động ANC, thời lượng pin lên đến 30 giờ liên tục. Thích hợp cho người làm việc văn phòng hoặc đi máy bay."
+  },
+  {
+    "id": "PROD03",
+    "name": "Bình Giữ Nhiệt Inox 304 800ml",
+    "price": 250000,
+    "category": "Gia dụng",
+    "description": "Bình giữ nhiệt chất liệu inox 304 an toàn cho sức khỏe, giữ nóng 12 giờ và giữ lạnh 24 giờ. Thiết kế nhỏ gọn có dây đeo tiện lợi."
+  }
+]
