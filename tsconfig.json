@@ -1,0 +1,45 @@
+{
+  // Cấu hình các tùy chọn cho trình biên dịch TypeScript (TypeScript Compiler)
+  "compilerOptions": {
+    // Xác định phiên bản JavaScript mục tiêu đầu ra sau khi biên dịch (ES2022)
+    "target": "ES2022",
+
+    // Quy định hệ thống mô-đun đầu ra (CommonJS cho môi trường Node.js)
+    "module": "CommonJS",
+
+    // Chiến lược phân giải/tìm kiếm vị trí tệp mô-đun (Node.js style)
+    "moduleResolution": "node",
+
+    // Khai báo các thư viện kiểu dữ liệu chuẩn có sẵn khi viết code (ES2022)
+    "lib": ["ES2022"],
+
+    // Thư mục chứa toàn bộ mã nguồn JavaScript (.js) sau khi được biên dịch
+    "outDir": "./dist",
+
+    // Thư mục gốc chứa mã nguồn TypeScript (.ts) cần biên dịch
+    "rootDir": "./src",
+
+    // Bật tất cả các chế độ kiểm tra kiểu dữ liệu nghiêm ngặt (Strict Type-Checking)
+    "strict": true,
+
+    // Cho phép import các mô-đun CommonJS theo cú pháp ES Module (import express from 'express')
+    "esModuleInterop": true,
+
+    // Bỏ qua việc kiểm tra kiểu dữ liệu trong các tệp định nghĩa thư viện bên ngoài (*.d.ts) để tăng tốc độ biên dịch
+    "skipLibCheck": true,
+
+    // Bắt buộc việc sử dụng chữ hoa/thường nhất quán trong tên tệp khi import
+    "forceConsistentCasingInFileNames": true
+  },
+
+  // Danh sách đường dẫn thư mục/tệp TypeScript mà trình biên dịch sẽ theo dõi và biên dịch
+  "include": [
+    "src/**/*"
+  ],
+
+  // Danh sách các thư mục/tệp bị loại trừ, trình biên dịch sẽ bỏ qua không xử lý
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
